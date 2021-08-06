@@ -62,27 +62,28 @@ body {
 .header-email,
 .footer-email {
   padding-left: 28px;
-  background-image: url("img/icon-email.svg");
+  background-image: url("img/email.svg");
 }
 
 .header-email:focus,
 .header-email:hover,
 .footer-email:focus,
 .footer-email:hover {
-  background-image: url("img/icon-email-alt.svg");
+  background-image: url("img/email.svg");
 }
 
-.header-phone,
-.footer-phone {
+.header-telegram,
+.footer-telegram {
+  fill: #f2f2f2;
   padding-left: 21px;
-  background-image: url("img/icon-phone.svg");
+  background-image: url("img/telegram.svg");
 }
 
-.header-phone:focus,
-.header-phone:hover,
-.footer-phone:focus,
-.footer-phone:hover {
-  background-image: url("img/icon-phone-alt.svg");
+.header-telegram:focus,
+.header-telegram:hover,
+.footer-telegram:focus,
+.footer-telegram:hover {
+  background-image: url("img/telegram.svg");
 }
 
 .page-header a:active,
