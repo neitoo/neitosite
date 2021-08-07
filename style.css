@@ -17,6 +17,10 @@ body {
   padding: 0 16px;
 }
 
+.blog {
+  margin-top: 80px;
+}
+
 .page-header {
   margin: 0;
   padding: 40px 0;
@@ -174,6 +178,11 @@ body {
   color: #f9dd79;
 }
 
+.aboutme {
+  position: absolute;
+}
+
+
 .intro .container {
   position: relative;
 }
@@ -280,9 +289,6 @@ body {
 }
 
 .project-image {
-  position: static;
-  top: 0;
-  left: 0;
   margin: 0;
 }
 
@@ -297,9 +303,10 @@ body {
 }
 
 .button {
+  position: static;
   margin: 0;
   padding: 8px 24px;
-  display: inline-block;
+  display: block;
   vertical-align: baseline;
   font-size: 14px;
   font-weight: 500;
